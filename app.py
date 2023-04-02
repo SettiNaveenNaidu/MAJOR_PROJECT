@@ -10,7 +10,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 @app.route('/',methods=['GET'])
 
 def Home():
-    return render_template('index.html')
+    return render_template('new.html')
 
 standard_to = StandardScaler()
 @app.route("/predict", methods=['POST'])
@@ -26,9 +26,9 @@ def predict():
         prediction=model.predict([[Feed,Speed,Doc,Woc,Dir,Coolant]])
         output=round(prediction[0],6)
         
-        return render_template('index.html',prediction_text="The value of roughness is {}".format(output))
+        return render_template('new.html',prediction_text="The value of roughness is {}".format(output))
     else:
-        return render_template('index.html')
+        return render_template('new.html')
 
 if __name__=="__main__":
     app.run(debug=True)
