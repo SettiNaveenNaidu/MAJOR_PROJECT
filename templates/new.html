@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Major Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="navi" id="navi">
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Major Project</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
+    </div>
+    <div class="form" id="form" action="{{ url_for('predict')}}" method="post">
+    <div class="container">
+        <div class="title">Prediction</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Feed Value</span>
+                <input type="number" placeholder="Enter Feed Value" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Speed</span>
+                <input type="number" placeholder="Enter Speed Value" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Doc</span>
+                <input type="number" placeholder="Enter Doc Value" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Woc</span>
+                <input type="number" placeholder="Enter Woc" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Dir</span>
+                <input type="number" placeholder="Enter Dir " required>
+              </div>
+              <div class="input-box">
+                <span class="details">Coolant</span>
+                <input type="number" placeholder="Enter Coolant Value" required>
+              </div>
+            </div>
+           
+            <div class="button">
+              <input type="submit" value="Register">
+            </div>
+          </form>
+          <br><br><h3>{{ prediction_text }}<h3></h3>
+        </div>
+      </div>
+    </div>
+    <section></section>
+  </body>
+</html>
