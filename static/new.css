@@ -251,7 +251,18 @@ form .user-details .input-box{
    left: 0;
    bottom: 0;
    width: 100%;
+}
+.footer-col{
+   width: 30%;
+   padding: 0 15px;
+   margin:0;
+	padding:0;
 	box-sizing: border-box;
+}
+
+.footer .container1{
+	max-width: 1400px;
+	margin:auto;
 }
 .footer-col h5{
 	font-size: 15px;
@@ -261,10 +272,9 @@ form .user-details .input-box{
 	font-weight: 300;
 	position: relative;
 }
-
-.footer-col{
-   width: 30%;
-   padding: 0 15px;
+.footer .container1 .row{
+	display: flex;
+	flex-wrap: wrap;
 }
 @media(max-width: 767px){
   .footer-col{
@@ -277,3 +287,5 @@ form .user-details .input-box{
     width: 100%;
 }
 }
+
+
