@@ -244,3 +244,36 @@ form .user-details .input-box{
     flex-direction: column;
   }
 }
+.footer{
+	background-color: #24262b;
+    padding: 50px 0;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+	box-sizing: border-box;
+}
+.footer-col h5{
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	font-weight: 300;
+	position: relative;
+}
+
+.footer-col{
+   width: 30%;
+   padding: 0 15px;
+}
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
