@@ -244,48 +244,42 @@ form .user-details .input-box{
     flex-direction: column;
   }
 }
-.footer{
-	background-color: #24262b;
-    padding: 50px 0;
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-}
-.footer-col{
-   width: 30%;
-   padding: 0 15px;
-   margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
 
-.footer .container1{
-	max-width: 1400px;
-	margin:auto;
-}
-.footer-col h5{
-	font-size: 15px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 10px;
-	font-weight: 300;
-	position: relative;
-}
-.footer .container1 .row{
-	display: flex;
-	flex-wrap: wrap;
-}
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    color: white;
     width: 100%;
+    background-color: black;
 }
-}
+.main{
+    display: flex;
 
+}
+.main .box{
+    flex-basis: 50%;
+    padding:10px 10px;
+}
+ul li{
+    list-style:none;
+    padding:2px 2px;
+}
+@media screen and (max-width:900) {
+    footer{
+        position:relative;
+
+    }
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+    }
+    .main .box{
+        margin:5px 0;
+
+    }
+    
+}
 
