@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
-body{
+.form{
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -21,12 +21,7 @@ body{
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 }
-.form{
-  justify-content: center;
-  align-items: center;
-  
-  
-}
+
 .container .title{
   font-size: 25px;
   font-weight: 500;
