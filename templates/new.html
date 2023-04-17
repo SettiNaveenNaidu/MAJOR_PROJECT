@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
-    <!---<title> Responsive Registration Form | CodingLab </title>--->
-    <link rel="stylesheet" href="name.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
+    <meta charset="utf-8">
+    <title>Major Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename="new.css") }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   
+  </head>
+  <body>
+    
     <div class="container">
-        <div class="title">Prediction</div>
+        <div class="title">Linear Prediction</div>
         <div class="content">
           <form action="{{ url_for('predict')}}" method="post">
             <div class="user-details">
@@ -46,6 +48,6 @@
           <br><br><h3>{{ prediction_text }}</h3>
         </div>
       </div>
-
-</body>
+    
+  </body>
 </html>
