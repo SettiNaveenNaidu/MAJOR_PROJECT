@@ -9,6 +9,7 @@
 body{
   display:flex;
   flex-direction:column;
+}
 .container{
   width: 50%;
   justify-content: center;
@@ -128,11 +129,13 @@ h3{
 }
 
 nav{
-    background: #0082e6;
     height: 50px;
     width: 100%;
   display:flex;
   flex-direction:row;
+}
+nav{
+  background: #0082e6;
 }
 nav ul{
     float: right;
@@ -156,12 +159,14 @@ a.active,a:hover{
     transition: .5s;
 } 
 .footer{
-    background-color: #211c1c;
     color: white;
     display: flex;
   flex-direction:row;
     padding: 10px 10px;
  }
+.footer{
+  background-color: #211c1c;}
+  
 .sir{
     padding: 3px 3px;
     margin-left: 100px;
