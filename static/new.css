@@ -121,13 +121,6 @@ h3{
     border-color: black;
 }
 
-
-
-
-
-
-/*NAVIGATION BAR DESIGNING*/
-
 nav{
     background: #0082e6;
     height: 50px;
@@ -148,15 +141,11 @@ nav ul li a{
     padding: 4px 13px;
     border-radius: 2px;
     text-transform: uppercase;
-}
-  
+}  
 a.active,a:hover{
     background: #1b9bff;
     transition: .5s;
-}
- 
- /* FOOTER*/
-
+} 
 .footer{
     background-color: #211c1c;
     color: white;
