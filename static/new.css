@@ -34,6 +34,7 @@
 }
 .content form .user-details{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 12px 0;
@@ -68,12 +69,14 @@ form .gender-details .gender-title{
  }
 form .category{
    display: flex;
+  flex-direction:row;
    width: 80%;
    margin: 14px 0 ;
    justify-content: space-between;
  }
 form .category label{
    display: flex;
+  flex-direction:row;
    align-items: center;
    cursor: pointer;
  }
@@ -132,6 +135,7 @@ nav ul{
 }
 nav ul li{
     display: inline-flex;
+  flex-direction:row;
     line-height: 16px;
     margin: 12px 3px;
 }
@@ -150,6 +154,7 @@ a.active,a:hover{
     background-color: #211c1c;
     color: white;
     display: flex;
+  flex-direction:row;
     padding: 10px 10px;
  }
 .sir{
