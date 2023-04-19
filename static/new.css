@@ -6,7 +6,6 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
 .container{
   width: 50%;
   justify-content: center;
@@ -63,22 +62,22 @@ form .input-box span.details{
 .user-details .input-box input:valid{
   border-color: #9b59b6;
 }
- form .gender-details .gender-title{
+form .gender-details .gender-title{
   font-size: 20px;
   font-weight: 500;
  }
- form .category{
+form .category{
    display: flex;
    width: 80%;
    margin: 14px 0 ;
    justify-content: space-between;
  }
- form .category label{
+form .category label{
    display: flex;
    align-items: center;
    cursor: pointer;
  }
- form .category label .dot{
+form .category label .dot{
   height: 18px;
   width: 18px;
   border-radius: 50%;
@@ -129,48 +128,46 @@ h3{
 
 /*NAVIGATION BAR DESIGNING*/
 
-  
-  nav{
+nav{
     background: #0082e6;
     height: 50px;
     width: 100%;
-  }
-  
-  nav ul{
+}
+nav ul{
     float: right;
     margin-right: 4px;
-  }
-  nav ul li{
+}
+nav ul li{
     display: inline-flex;
     line-height: 16px;
     margin: 12px 3px;
-  }
-  nav ul li a{
+}
+nav ul li a{
     color: white;
     font-size: 17px;
     padding: 4px 13px;
     border-radius: 2px;
     text-transform: uppercase;
-  }
+}
   
-  a.active,a:hover{
+a.active,a:hover{
     background: #1b9bff;
     transition: .5s;
-  }
+}
  
  /* FOOTER*/
 
- .footer{
+.footer{
     background-color: #211c1c;
     color: white;
     display: flex;
     padding: 10px 10px;
  }
- .sir{
+.sir{
     padding: 3px 3px;
     margin-left: 100px;
  }
- .students{
+.students{
     padding:3px 3px;
     margin-left: 300px;
  }
