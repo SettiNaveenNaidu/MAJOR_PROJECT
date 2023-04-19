@@ -131,6 +131,8 @@ nav{
     background: #0082e6;
     height: 50px;
     width: 100%;
+  display:flex;
+  flex-direction:row;
 }
 nav ul{
     float: right;
