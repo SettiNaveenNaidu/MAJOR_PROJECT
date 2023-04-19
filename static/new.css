@@ -2,24 +2,21 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
-}
+
 .container{
-  max-width: 700px;
-  width: 100%;
+  width: 50%;
+  justify-content: center;
   background-color: #fff;
   padding: 25px 30px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  align-content: center;
+  margin-top: 90px;
+  margin-left: 365px;
 }
 .container .title{
   font-size: 25px;
@@ -121,4 +118,60 @@ form .input-box span.details{
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
   }
  
+h3{
+    border-color: black;
+}
+
+
+
+
+
+
+/*NAVIGATION BAR DESIGNING*/
+
   
+  nav{
+    background: #0082e6;
+    height: 50px;
+    width: 100%;
+  }
+  
+  nav ul{
+    float: right;
+    margin-right: 4px;
+  }
+  nav ul li{
+    display: inline-flex;
+    line-height: 16px;
+    margin: 12px 3px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 4px 13px;
+    border-radius: 2px;
+    text-transform: uppercase;
+  }
+  
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+ 
+ /* FOOTER*/
+
+ .footer{
+    background-color: #211c1c;
+    color: white;
+    display: flex;
+    padding: 10px 10px;
+ }
+ .sir{
+    padding: 3px 3px;
+    margin-left: 100px;
+ }
+ .students{
+    padding:3px 3px;
+    margin-left: 300px;
+ }
+ 
