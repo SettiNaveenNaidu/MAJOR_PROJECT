@@ -6,7 +6,20 @@
     <link rel="stylesheet" href="{{ url_for('static', filename="new.css") }}">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
-<body>  
+<body>
+    <div class="nav">
+    <nav>
+        <ul>
+            <li><a href="#"> Linear Regression </a></li>
+            <li><a href="#"> Lasso </a></li>
+            <li><a href="#"> Ridge </a></li>
+            <li><a href="#"> SVR </a></li>
+            <li><a href="#"> Neural Network </a></li>
+        </ul>
+        
+    </nav>
+    </div>
+    
     <div class="container">
         <div class="title">Linear Prediction</div>
         <div class="content">
@@ -42,11 +55,27 @@
               <input type="submit" value="Submit">
             </div>
           </form>
-          <br><br><h3>{{ prediction_text }}</h3>
+          <br><h3 style="background-color:cadetblue;border-radius: 3px;">{{ prediction_text }}</h3>
         </div>
       </div>
     </div>
-
-
+    <br>
+    <br>
+    <div class="footer">
+    
+            <div class="sir">
+                <p>GUIDE : </p><br>
+                    <p>PS SUVIN</p>
+                <p>Assistant Professor</p>
+                <p>National Institute Of Technology Karnataka</p>
+            </div>
+            <div class="students">
+                <p>STUDENTS :</p><br>
+                <p>Setti Naveen Naidu</p>
+                <p>P Gagan Kumar</p>
+                <p>National Institute Of Technology Karnataka</p>
+            </div>
+        
+    </div>
 </body>
 </html>
