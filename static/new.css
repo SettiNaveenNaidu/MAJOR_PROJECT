@@ -32,6 +32,7 @@ nav ul li a{
     padding: 4px 13px;
     border-radius: 2px;
     text-transform: uppercase;
+  text-decoration:none;
 }  
 a.active,a:hover{
     background: #1b9bff;
