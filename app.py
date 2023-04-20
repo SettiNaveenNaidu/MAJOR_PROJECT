@@ -6,7 +6,7 @@ import numpy as np
 import sklearn
 from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
-model1 = pickle.load(open('linear_reg.pkl', 'rb'))
+model1 = pickle.load(open('linear.pkl', 'rb'))
 model2 = pickle.load(open('lasso.pkl', 'rb'))
 model3 = pickle.load(open('ridge.pkl', 'rb'))
 model4 = pickle.load(open('svr.pkl', 'rb'))
