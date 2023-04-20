@@ -15,8 +15,9 @@ nav{
 }
 nav{
   display:flex;
-  flex-direction:row;
-  float:right;
+  flex-direction:row-reverse;
+  align-items:center;
+  
 }
 nav{
   background: #0082e6;
