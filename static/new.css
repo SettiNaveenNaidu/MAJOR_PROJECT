@@ -10,12 +10,12 @@ nav{
 nav{
   display:flex;
   flex-direction:row;
+  float:right;
 }
 nav{
   background: #0082e6;
 }
 nav ul{
-    float: right;
     margin-right: 4px;
 }
 nav ul li{
