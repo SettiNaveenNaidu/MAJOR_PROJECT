@@ -46,6 +46,7 @@ nav ul li a{
 a.active,a:hover{
     background: #1b9bff;
     transition: .5s;
+  text-decoration:none;
 } 
 .container{
   width: 50%;
