@@ -8,22 +8,9 @@ from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 @app.route('/',methods=['GET'])
+
 def Home():
-    return render_template('linear.html')
-@app.route('/lasso.html')
-def index():
-    return render_template('lasso.html')
-
-@app.route('/ridge.html')
-def about():
-    return render_template('ridge.html')
-
-@app.route('/svr.html')
-def menu():
-    return render_template('svr.html')
-@app.route('/neural.html')
-def menu():
-    return render_template('neural.html')
+    return render_template('new.html')
 
 standard_to = StandardScaler()
 @app.route("/predict", methods=['POST'])
