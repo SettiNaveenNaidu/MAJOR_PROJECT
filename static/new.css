@@ -13,6 +13,8 @@ body{
 nav{
     height: 50px;
     width: 100%;
+}
+nav{
   display:flex;
   flex-direction:row;
 }
@@ -26,6 +28,8 @@ nav ul{
 nav ul li{
     display: inline-flex;
   flex-direction:row;
+}
+nav ul li{
     line-height: 16px;
     margin: 12px 3px;
 }
