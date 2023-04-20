@@ -2,9 +2,9 @@
 .out{
   display:flex;
   flex-direction:column;
+  margin:0px;
 }
 nav{
-  margin:0px;
     height: 50px;
     width: 100%;
 }
@@ -26,14 +26,16 @@ nav ul li{
 nav ul li{
     line-height: 16px;
     margin: 6px 3px;
+  float:right;
 }
 nav ul li a{
+    text-decoration: none;
     color: white;
     font-size: 17px;
     padding: 4px 13px;
     border-radius: 2px;
     text-transform: uppercase;
-  text-decoration:none;
+   
 }  
 a.active,a:hover{
     background: #1b9bff;
