@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> MAJOR PROJECT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename="new.css") }}">
+     <meta name="viewport"content="width=device-width, initial-scale=1.0">
+<meta name="viewport"content="height=device-height, initial-scale=1.0">
+   </head>
+<body>
+  <div class="out">
+    <div class="nav">
+    <nav>
+        <ul>
+            <li><a href="linear_reg.html"> Linear Regression </a></li>
+            <li><a href="lasso.html"> Lasso </a></li>
+            <li><a href="ridge.html"> Ridge </a></li>
+            <li><a href="svr.html"> SVR </a></li>
+            <li><a href="neural.html"> Neural Network </a></li>
+        </ul>
+        
+    </nav>
+    </div>
+    
+    <div class="container">
+        <div class="title">Lasso Regression Prediction</div>
+        <div class="content">
+          <form action="{{ url_for('predict2')}}" method="post">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Feed Value</span>
+                <input type="number" name="Feed" placeholder="Enter Feed Value" step="0.0000001" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Speed</span>
+                <input type="number" name="Speed" placeholder="Enter Speed Value" step="0.0000001" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Doc</span>
+                <input type="number" name="Doc" placeholder="Enter Doc Value" step="0.0000001" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Woc</span>
+                <input type="number" name="Woc" placeholder="Enter Woc" step="0.0000001" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Dir</span>
+                <input type="number" name="Dir" placeholder="Enter Dir " step="0.0000001" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Coolant</span>
+                <input type="number" name="Coolant" placeholder="Enter Coolant Value" step="0.0000001" required>
+              </div>
+            </div>
+           
+            <div class="button">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+          <br><h3 style="background-color:cadetblue;border-radius: 3px;">{{ prediction_text }}</h3>
+        </div>
+      </div>
+    
+    <br>
+    <br>
+    <div class="footer">
+    
+            <div class="sir">
+                <p>GUIDE : </p>
+                    <p>PS SUVIN</p>
+                <p>Assistant Professor</p>
+                <p>National Institute Of Technology Karnataka</p>
+            </div>
+            <div class="students">
+                <p>STUDENTS :</p>
+                <p>S Naveen Naidu</p>
+                <p>P Gagan Kumar</p>
+                <p>I Rakesh</p>
+                <p>A Anil Kumar</p>
+                <p>S Lahari</p>
+            </div>
+           <div class="abouts">
+              <p>ABOUT :</p>
+              <p>Major Project</p>
+              <p>April 2023</p>
+          </div>
+    </div>
+    </div>
+  
+</body>
+</html>
