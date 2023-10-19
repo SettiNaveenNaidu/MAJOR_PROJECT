@@ -6,10 +6,10 @@ import numpy as np
 import sklearn
 from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
-model1 = pickle.load(open('linear.pkl', 'rb'))
-model2 = pickle.load(open('lasso.pkl', 'rb'))
-model3 = pickle.load(open('ridge.pkl', 'rb'))
-model4 = pickle.load(open('svr.pkl', 'rb'))
+model1 = pickle.load(open('/models/linear.pkl', 'rb'))
+model2 = pickle.load(open('/models/lasso.pkl', 'rb'))
+model3 = pickle.load(open('/models/ridge.pkl', 'rb'))
+model4 = pickle.load(open('/models/svr.pkl', 'rb'))
 model5 = pickle.load(open('neural.pkl', 'rb'))
 
 
